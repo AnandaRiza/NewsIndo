@@ -21,6 +21,9 @@
 		52F3D9242BD75969001354E5 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 52F3D9232BD75969001354E5 /* AlamofireDynamic */; };
 		52F3D9272BD75ABF001354E5 /* NewsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F3D9262BD75ABF001354E5 /* NewsVM.swift */; };
 		52F3D92A2BD7625A001354E5 /* String+xtDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F3D9292BD7625A001354E5 /* String+xtDate.swift */; };
+		52F3D9312BD7851F001354E5 /* NewsOke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F3D9302BD7851F001354E5 /* NewsOke.swift */; };
+		52F3D9332BD786F5001354E5 /* OKEAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F3D9322BD786F5001354E5 /* OKEAPIService.swift */; };
+		52F3D9352BD78877001354E5 /* OkeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F3D9342BD78877001354E5 /* OkeVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,9 @@
 		52F3D91D2BD755D7001354E5 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		52F3D9262BD75ABF001354E5 /* NewsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsVM.swift; sourceTree = "<group>"; };
 		52F3D9292BD7625A001354E5 /* String+xtDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+xtDate.swift"; sourceTree = "<group>"; };
+		52F3D9302BD7851F001354E5 /* NewsOke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsOke.swift; sourceTree = "<group>"; };
+		52F3D9322BD786F5001354E5 /* OKEAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OKEAPIService.swift; sourceTree = "<group>"; };
+		52F3D9342BD78877001354E5 /* OkeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkeVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,7 @@
 		52F3D8E82BD74ABF001354E5 /* NewsIndo */ = {
 			isa = PBXGroup;
 			children = (
+				52F3D92B2BD7849F001354E5 /* Okezone */,
 				52F3D9282BD76231001354E5 /* helper */,
 				52F3D9252BD75A9B001354E5 /* viewmodel */,
 				52F3D91A2BD75523001354E5 /* services */,
@@ -200,6 +207,40 @@
 				52F3D9292BD7625A001354E5 /* String+xtDate.swift */,
 			);
 			path = helper;
+			sourceTree = "<group>";
+		};
+		52F3D92B2BD7849F001354E5 /* Okezone */ = {
+			isa = PBXGroup;
+			children = (
+				52F3D92F2BD784FC001354E5 /* viewmodel */,
+				52F3D92E2BD784EF001354E5 /* services */,
+				52F3D92C2BD784CD001354E5 /* model */,
+			);
+			path = Okezone;
+			sourceTree = "<group>";
+		};
+		52F3D92C2BD784CD001354E5 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				52F3D9302BD7851F001354E5 /* NewsOke.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		52F3D92E2BD784EF001354E5 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				52F3D9322BD786F5001354E5 /* OKEAPIService.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		52F3D92F2BD784FC001354E5 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				52F3D9342BD78877001354E5 /* OkeVM.swift */,
+			);
+			path = viewmodel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,10 +380,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52F3D9352BD78877001354E5 /* OkeVM.swift in Sources */,
 				52F3D9182BD75298001354E5 /* News.swift in Sources */,
 				52F3D91E2BD755D7001354E5 /* APIService.swift in Sources */,
 				52F3D92A2BD7625A001354E5 /* String+xtDate.swift in Sources */,
 				52F3D8EC2BD74ABF001354E5 /* ContentView.swift in Sources */,
+				52F3D9332BD786F5001354E5 /* OKEAPIService.swift in Sources */,
+				52F3D9312BD7851F001354E5 /* NewsOke.swift in Sources */,
 				52F3D8EA2BD74ABF001354E5 /* NewsIndoApp.swift in Sources */,
 				52F3D91C2BD75547001354E5 /* Constant.swift in Sources */,
 				52F3D9272BD75ABF001354E5 /* NewsVM.swift in Sources */,
